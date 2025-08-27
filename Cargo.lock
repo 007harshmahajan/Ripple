@@ -546,20 +546,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "junior_rust"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "base64",
- "hex",
- "reqwest",
- "serde",
- "serde_json",
- "sha256",
- "tokio",
-]
-
-[[package]]
 name = "libc"
 version = "0.2.175"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -828,6 +814,20 @@ dependencies = [
  "wasm-bindgen-futures",
  "web-sys",
  "winreg",
+]
+
+[[package]]
+name = "ripple"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "base64",
+ "hex",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "sha256",
+ "tokio",
 ]
 
 [[package]]

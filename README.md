@@ -15,7 +15,7 @@ A Rust library for Ripple Testnet token operations implementing the required int
 ## Usage
 
 ```rust
-use junior_rust::{send_token, verify_token_transfer, sign_transfer_offline, submit_signed_transaction};
+use ripple::{send_token, verify_token_transfer, sign_transfer_offline, submit_signed_transaction};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
